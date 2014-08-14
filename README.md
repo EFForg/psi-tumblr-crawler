@@ -12,7 +12,7 @@ npm install
 Set a Tumblr blog in `config.json`
 ```json
 {
-    "tumblr" : "http://pardon.privatemanning.org"
+    "tumblr" : "pardon.privatemanning.org"
 }
 ```
 
