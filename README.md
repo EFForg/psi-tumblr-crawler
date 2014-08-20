@@ -12,7 +12,8 @@ npm install
 Set a Tumblr blog in `config.json`
 ```json
 {
-    "tumblr" : "pardon.privatemanning.org"
+    "tumblr" : "projectsecretidentity.tumblr.com",
+    "type": "photo"
 }
 ```
 
