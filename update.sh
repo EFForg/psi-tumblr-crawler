@@ -3,7 +3,7 @@ SCRIPT=$(readlink -f "$0")
 SCRIPTPATH=$(dirname "$SCRIPT")
 
 # Crawl Tumblr and save JSON
-node "$SCRIPTPATH/lib/tumblr.js"
+/usr/local/bin/node "$SCRIPTPATH/lib/tumblr.js"
 
 # Push updated JSON to Git repository
 if [ "$1" ]; then
